@@ -3,7 +3,6 @@ export default function Home() {
     <main className="bg-gradient-to-r from-cyan-500 to-blue-500 min-h-screen flex items-center justify-center">
       <article className="flex flex-col items-center text-white bg-black p-6 md:p-10 rounded-lg shadow-lg space-y-6 md:space-y-6 lg:space-y-0 md:flex-col lg:flex-row lg:space-x-6 max-w-xs md:max-w-lg lg:max-w-2xl">
         
-        {/* Imagen de perfil */}
         <section className="w-32 -ml-10 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-48 lg:h-48 overflow-hidden flex-shrink-0 transition-all duration-300 rounded-full md:rounded-lg lg:rounded-lg md:mt-0 lg:mt-10 lg:-ml-16">
           <img
             src="/imagen.jpg"
@@ -12,7 +11,6 @@ export default function Home() {
           />
         </section>
 
-        {/* Contenido de texto y botones */}
         <section className="mt-6 md:mt-4 lg:mt-0 space-y-2 text-center md:text-center lg:text-left">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold">Jess Wilson</h2>
           <p className="text-sm md:text-base lg:text-lg text-gray-400">UX Engineer</p>
